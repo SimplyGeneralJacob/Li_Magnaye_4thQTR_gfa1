@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="navbar">
+                <h2>SimplyInc</h2>
+                <nav>
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Signup</a></li>
+                        <li><a href="">About</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="form-box">
+            <h1>Sign Up</h1>
+            <form>
+                <div class="input-group">
+                    <div class="input-field">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        <input type="text" required placeholder="First Name">
+                    </div>
+
+                    <div class="input-field">
+                        <ion-icon name="person-circle-outline"></ion-icon>
+                        <input type="text" required placeholder="Last Name">
+                    </div>
+
+                    <div class="gender-field">
+                        <h3>Gender</h3>
+                        <label for="Male">Male</label>
+                        <input type="radio" id="Male" value="Male" name="gender"><br>
+                        <label for="Female">Female</label>
+                        <input type="radio" id="Female" value="Female" name="gender"><br>
+                        <label for="Undecided">Prefer not to say</label>
+                        <input type="radio" id="Undecided" value="Undecided" name="gender"><br>
+
+                    </div>
+
+                    <div class="input-field">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <input type="email" required placeholder="Email">
+                    </div>
+
+                    <div class="input-field">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <input type="text" placeholder="Phone No. (OPTIONAL)">
+                    </div>
+                    <div class="btn-field">
+                        <button type="submit">Submit</button>
+                        <button type="reset" id="reset">Reset</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="paragraph">
+            <h3>Explanation</h3>
+            <p>The charity organization that I chose was the Waves for Water foundation.
+                They believe that access to clean water is a fundamental human right. 
+                Which is why they have dedicated their lives to providing it, 
+                through the implementation of portable water filter systems,
+                the digging/renovating of bore-hole wells, and the construction 
+                of rainwater harvesting/storing systems (in places where groundwater is not accessible).
+            </p>
+            <br>
+            <p>I chose this organization because:</p>
+            <ul>
+                <li>
+                    We live in the Philippines, an archipelago of 7000 islands. If our people don't
+                    have access to clean water, it just harms our future
+                </li>
+                <li>
+                    We in the Philippines, constantly get hit by devastating typhoons which affect our lives
+                    but also the organisms in the water.
+                </li>
+                <li>
+                    Keeping clean water will also help our industry especially those that specialize in fishing,
+                    as fish populations could be destroyed from dirty water.
+                </li>
+            </ul>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
